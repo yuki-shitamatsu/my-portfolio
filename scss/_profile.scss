@@ -1,0 +1,37 @@
+.profile-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.profile-image {
+  width: 33%;
+} img {
+  display: block;
+  margin: 0 auto;
+  width: 15rem;
+  height: 15rem;
+  @include tab {
+    width: 10rem;
+    height: 10rem;
+  }
+  @include sp {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+.profile-des {
+  width: 62%;
+}
+
+.profile-des-list li{
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: $main-fc;
+  line-height: 2rem;
+}
+

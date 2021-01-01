@@ -1,0 +1,17 @@
+header {
+  height: 222px;
+  display: flex;
+  align-items: center;
+  background: url(../img/733B983C-C0E1-495D-8D90-FBB66301CAF3_1_105_c.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  font-family: $main-ff;
+  font-weight: bold;
+  font-size: 94px;
+  color: #fff;
+  letter-spacing: -2px;
+  margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+.contact-title {
+  margin-bottom: 35px;
+}
+
+.contact-desc {
+  color: $main-fc;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.contact-list {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  li {
+    display: inline-block;
+  }
+  .fa-twitter {
+    color: #1DA1F2;
+    padding-right: 2.5rem;
+  }
+}
+
