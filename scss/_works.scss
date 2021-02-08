@@ -8,8 +8,45 @@
 .work-card {
   width: 32%;
   display: flex;
+  flex-direction: column;
   margin-bottom: 50px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: .25rem;
+  @include sp {
+    width: 48%;
+  }
+  img {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+    height: 245px;
+  }
+  video {
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+    height: 245px;
+  }
+}
+
+.work-caption {
+  text-align: center;
+}
+
+.work-caption-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.work-caption-info {
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.work-caption-url {
+  font-size: 10px;
+  margin-bottom: 1rem;
+  color: #0077bf;
 }

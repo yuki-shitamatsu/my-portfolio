@@ -2,9 +2,12 @@ header {
   height: 222px;
   display: flex;
   align-items: center;
-  background: url(../img/733B983C-C0E1-495D-8D90-FBB66301CAF3_1_105_c.jpeg);
+  background: url(../asset/img/733B983C-C0E1-495D-8D90-FBB66301CAF3_1_105_c.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  @include sp {
+    height: 200px;
+  }
 }
 
 .logo {

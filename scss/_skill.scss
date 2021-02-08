@@ -5,6 +5,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @include sp {
+    width: 100%;
+  }
 }
 
 .skill-card {
@@ -17,6 +20,11 @@
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: .25rem;
+  &:last-child {
+    @include sp {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .skill-desc {
