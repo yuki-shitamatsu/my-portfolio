@@ -50,3 +50,31 @@
   margin-bottom: 1rem;
   color: #0077bf;
 }
+
+.works-movie-des {
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
+
+.works-movie-wrapper {
+  padding: 20px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  @include sp {
+    padding: 20px 10px;
+  }
+}
+
+.works-movie-card {
+  width: 45%;
+  video {
+    width: 100%;
+  }
+  @include sp {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+}
+
