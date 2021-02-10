@@ -17,4 +17,7 @@ header {
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto;
+  @include sp {
+    font-size: 56px;
+  }
 }
